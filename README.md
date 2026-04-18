@@ -1,10 +1,16 @@
-# Project Title
+# HW 4.3 Reproducible Data Analysis
 
-Write a 1-2 sentences that quickly and clearly convey what your repo is for.
+A reproducible data analysis of airport passenger traffic and 
+Monte Carlo numerical integration, built with Quarto and RStudio.
 
 ## Overview
 
-Expand on those introductory sentences with a brief but informative description of your project's purpose and goals. This section should help visitors decide whether they should dig deeper into your repo/project.
+This repo contains the deliverables for STAT 184 HW 4.3. The 
+analysis covers passenger traffic trends across six major 
+international airports from 2020–2025, a Monte Carlo simulation 
+for numerical integration under the standard normal curve, and 
+an exploration of how plan-informed GenAI prompting compares to 
+generic prompting for data tidying tasks.
 
 ## Interesting Insight
 
@@ -17,17 +23,29 @@ recovery arc across all six airports.
 
 ## Data Sources and Acknowledgements
 
-Be sure to list where you got any data used within the project. Be sure to acknowledge any one whose work or elements you're drawing upon.
+- Airport passenger data: Wikipedia — List of Busiest Airports 
+  by Passenger Traffic (scraped via `rvest`)
+- Monte Carlo simulation: generated in R using `dnorm()`
+- Calcium dataset: provided by course instructor (STAT 184, PSU)
+- GenAI tool used: Claude Sonnet 4.6 (Anthropic)
 
 ## Current Plan
 
-Provide some information about what you intend to doe with the project. You can additionally refer the visitor to your detailed plan document.
+See `PLAN.md` for the full Goals, Needs, and Steps for both the 
+project analysis and the repo setup and maintenance plan.
 
 ## Repo Structure
 
-Use this section to explain the structure of your repo. This should help visitors quickly figure out where they should look to find certain elements. Further, you can use this space to highlight and briefly explain important/key files in the repo.
+├── HW4.3_ReproducibleAnalysis.qmd   # Source Quarto document
+├── HW4.3_ReproducibleAnalysis.pdf   # Rendered PDF output
+├── ClaudePlot1.png                  # Generic prompt plot 1
+├── ClaudePlot2.png                  # Generic prompt plot 2
+├── images/                          # Supporting images for QMD
+├── PLAN.md                          # Project and repo plan
+├── README.md                        # This file
+└── HW4.4_Template.Rproj             # RStudio project file
 
 
 ## Authors
 
-Give information about who are the authors of the project and how people can get in touch if they have questions.
+Akil Creswell — Penn State University, STAT 184
