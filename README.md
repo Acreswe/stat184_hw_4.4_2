@@ -12,9 +12,14 @@ for numerical integration under the standard normal curve, and
 an exploration of how plan-informed GenAI prompting compares to 
 generic prompting for data tidying tasks.
 
-### Interesting Insight (Optional)
+## Interesting Insight
 
-This is optional but highly recommended. You'll include one interesting insight from your project as part of the README. This insight is most effective when you include a visual. Keep in mind that this visual must be included as an image file (e.g., JPG, PNG, etc.). You can export plots created with `{ggplot2}` by using the function `ggsave`.
+Atlanta's airport (ATL) never dropped below 42M passengers even 
+at the pandemic floor in 2020, while European airports like CDG 
+and FRA collapsed to under 25M. The plot below shows the full 
+recovery arc across all six airports.
+
+![Airport Passenger Traffic 2020–2025](airport_plot.png)
 
 ## Data Sources and Acknowledgements
 
