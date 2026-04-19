@@ -40,11 +40,8 @@ Beijing Daxing (PKX) is the most structurally interesting case in the data set. 
 ```{r}
 #| label: airportWrangling
 #| echo: false
-# Load Packages 
-# install.packages("tidyverse")
-# install.packages("rvest")
-# install.packages("knitr")
-# install.packages("kableExtra")
+# Coding Style: Tidyverse Style Guide (https://style.tidyverse.org)
+# Load Packages
 library(tidyverse)
 library(rvest)
 library(knitr)
@@ -478,6 +475,7 @@ print(mc_figure10000)
 #| label: fig-genericResponse1
 #| fig-cap: "Generic Prompt Response — Group Means View"
 #| fig-pos: H
+#| fig-alt: "Line plot showing group mean calcium measurements over four time points for two groups, with individual subject trajectories displayed as faint lines in the background."
 #| echo: false
 knitr::include_graphics("ClaudePlot1.png")
 ```
@@ -486,6 +484,7 @@ knitr::include_graphics("ClaudePlot1.png")
 #| label: fig-genericResponse2
 #| fig-cap: "Generic Prompt — Individual Lines View"
 #| fig-pos: H
+#| fig-alt: "Line plot showing only group mean calcium measurements over four time points for two groups, without individual subject trajectories."
 #| echo: false
 knitr::include_graphics("ClaudePlot2.png")
 ```
